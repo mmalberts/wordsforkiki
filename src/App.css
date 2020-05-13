@@ -1,0 +1,88 @@
+body {
+  background-image: url("./paint.jpg");
+}
+
+.container {
+  margin: 0 auto;
+  width: 70%;
+  background-image: url("./whitepaint.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 395px;
+}
+
+.mainheader {
+  text-align: left;
+  padding-left: 50px;
+  /*font-family: 'Monoton', cursive;*/
+  /*font-family: 'Lemon', cursive;*/
+  font-family: 'Shrikhand', cursive;
+  color: #ee7007;
+  font-size: 90px;
+  opacity: 0.9;
+  text-shadow: 6px 6px rgb(142,174,173,0.9);
+  /*text-shadow: 6px 6px rgb(208,11,39,0.9);*/
+  /*text-shadow: 6px 6px rgb(223,196,121,0.9);*/
+  /*text-shadow: 6px 6px rgb(198,169,165,0.9);*/
+}
+
+.cardholder {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.greeting {
+  text-align: center;
+  font-family: 'Chicle', cursive;
+  padding: 30px;
+  color: white;
+  opacity: 0.9;
+}
+
+.row {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+.writer-name {
+  text-align: left;
+  padding: 10px 0px 10px 10px;
+  /*background-color: #ff9cb8;*/
+}
+
+.action-text {
+  color: black;
+  font-family: 'Unica One', cursive;
+  font-size: 20px;
+}
+
+.letterbox {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.letter {
+  background-color: white;
+  opacity: 0.9;
+  width: 50%;
+  text-align: left;
+  padding: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+.claireletter {
+  width: 50%;
+}
